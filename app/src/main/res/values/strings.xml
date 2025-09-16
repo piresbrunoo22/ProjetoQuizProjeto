@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Quizes</string>
-    <string name="texto_alternativa_a">Resposta 1</string>
-    <string name="texto_alternativa_b">Resposta 2</string>
-    <string name="texto_alternativa_c">Resposta 3</string>
-    <string name="texto_alternativa_d">Resposta 4</string>
-    <string name="texto_pergunta_1">Espaço de pergunta</string>
-    <string name="texto_botao">RESPONDER</string>
+    <string name="app_name">Quiz</string>
+    <string name="alternativa_a">Pergunta 1</string>
+    <string name="alternativa_b">Pergunta 2</string>
+    <string name="alternativa_c">Pergunta 3</string>
+    <string name="alternativa_d">Pergunta 4</string>
+    <string name="pergunta_1">Quem é o maior clube do Brasil?</string>
+    <string name="pergunta_2">Quem é o pior clube do Brasil?</string>
 </resources>
