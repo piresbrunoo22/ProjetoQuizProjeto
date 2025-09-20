@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,7 +15,6 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="20dp"
-        android:background="@color/red_1"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,7 +28,8 @@
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:background="@color/red_2"
+            android:background="@drawable/botao1"
+            android:textColor="@color/black"
             android:text="@string/alternativa_a" />
 
         <RadioButton
@@ -36,7 +37,8 @@
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:background="@color/red_3"
+            android:background="@drawable/botao1"
+            android:textColor="@color/black"
             android:text="@string/alternativa_b" />
 
         <RadioButton
@@ -44,14 +46,16 @@
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:background="@color/red_4"
+            android:background="@drawable/botao1"
+            android:textColor="@color/black"
             android:text="@string/alternativa_c" />
 
         <RadioButton
             android:id="@+id/rbd"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:background="@color/red_5"
+            android:background="@drawable/botao1"
+            android:textColor="@color/black"
             android:gravity="center"
             android:text="@string/alternativa_d" />
     </RadioGroup>
@@ -60,6 +64,7 @@
         android:id="@+id/btnResponder"
         android:layout_width="301dp"
         android:layout_height="55dp"
+        android:background="@drawable/botao2"
         android:text="Responder"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
